@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+}
+
+
+.header_area {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 15px;
+    padding-bottom: 150px;
+}
+
+.header_logo {
+    font: bold 24px sans-serif;
+    color: #F9FAF8;
+}
+
+.header_links a,
+.header_description {
+    font: 18px sans-serif;
+    color: #E5E7EB;
+}
+
+.header_title {
+    font: bold 48px Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+    width: 400px;
+    margin: 0;
+}
+
+.header_description {
+    width: 450px;
+    margin-top: 0;
+}
+
+button,
+.call_to_action {
+    background-color: #3882F6;
+}
+
+button {
+    color: #F9FAF8;
+    font: bold 18px sans-serif;
+}
+
+.header_button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.header_links {
+    list-style: none;
+    margin: 0;
+}
+
+.header_links a {
+    text-decoration: none;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: solid;
+    border-color: white;
+}
+
+.placeholder_image {
+    background-color: grey;
+    color: white;
+    width: 500px;
+    height: 250px;
+}
+
+.info_area {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.info_title {
+    font: bold 36px Arial, Helvetica, sans-serif;
+}
+
+.info_div {
+    border: solid #3882F6 3px;
+    border-radius: 10px;
+    width: 175px;
+    height: 175px;
+}
+
+.quote_area {
+    background-color: #E5E7EB;
+}
+
+.info_paragraph {
+    width: 175px;
+    font: 18px sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.quote_area {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.quote_area .container {
+    width: 800px;
+}
+
+.quote_area p {
+    font: italic 36px Verdana, sans-serif;
+    font-weight: light;
+    color: #1F2937;
+    width: 800px;
+    margin: 0;
+}
+
+.quote_area div {
+    font: bold 25px Arial, Helvetica, sans-serif;
+    color: #1F2937;
+}
+
+.call_to_action_area {
+    padding: 100px 0;
+}
+
+.call_to_action {
+    height: 175px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.call_to_action button {
+    border: solid #F9FAF8 2px;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.call_to_action h4 {
+    margin: 0;
+    font: bold 22px Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+}
+
+.call_to_action_description {
+    font: 18px Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ##################################### display #####################################  */
+
+.header_area {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_links {
+    display: flex;
+    gap: 27px;
+}
+
+.placeholder_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.header_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.info_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image_and_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px
+}
+
+.quote_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_area .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 30px;
+}
+
+.quote_area div {
+    align-self: flex-end;
+    padding-right: 10px;
+}
+
+.call_to_action_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
