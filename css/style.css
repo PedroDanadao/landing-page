@@ -168,12 +168,6 @@ button {
     gap: 27px;
 }
 
-.placeholder_image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .header_bottom {
     display: flex;
     justify-content: center;
