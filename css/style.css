@@ -66,13 +66,6 @@ button {
     border-color: white;
 }
 
-.placeholder_image {
-    background-color: grey;
-    color: white;
-    width: 500px;
-    height: 250px;
-}
-
 .info_area {
     padding-top: 30px;
     padding-bottom: 60px;
@@ -82,7 +75,7 @@ button {
     font: bold 36px Arial, Helvetica, sans-serif;
 }
 
-.info_div {
+.info_image {
     border: solid #3882F6 3px;
     border-radius: 10px;
     width: 175px;
@@ -98,6 +91,7 @@ button {
     font: 18px sans-serif;
     text-align: center;
     margin: 0;
+    color: #1F2937;
 }
 
 .quote_area {
